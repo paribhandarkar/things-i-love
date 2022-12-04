@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #C0AE96;
+    margin: 4%;
+}
+
+.about {
+    display: flex;
+}
+
+section{
+    padding: 6%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8vw;
+    text-align: justify;
+}
+
+mark{
+    background-color:#CBC3BA;
+}
+
+ h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 8vw;
+    margin-bottom: 0;
+    color: #782515;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    padding: 5%;
+    border: 2px double #782515;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 1.5%;
+    align-items: flex-start;
+    grid-template-areas: 
+    "one two three four" 
+    "five six seven four" 
+    "eight six seven four" 
+    "eight six nine ten" 
+    "eleven eleven eleven ten" 
+    "eleven eleven eleven twelve" 
+    "eleven eleven eleven twelve";
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.one{
+    grid-area: one;
+    width: 100%;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight;
+}
+.nine{
+    grid-area: nine;
+}
+.ten{
+    grid-area: ten;
+}
+.eleven{
+    grid-area: eleven;
+    /* margin: auto; */
+}
+.twelve{
+    grid-area: twelve;
+}

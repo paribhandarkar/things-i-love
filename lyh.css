@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-image: url(bg.png);
+    background-position: center;
+    background-size: cover;
+
+    margin: 4%;
+}
+
+.about {
+    display: flex;
+}
+
+section{
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6vw;
+    text-align: justify;
+}
+
+img[alt='album-cover'] {
+    display: block;
+    /* width: 100%; */
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: #E5E3D7;
+    margin: 2%;
+    padding: 2%;
+    color: #524F4A;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 8vw;
+    margin-bottom: 0;
+}
+
+mark{
+    background-color:#CBC3BA;
+    color: #524F4A;
+}
+
+a{
+    text-decoration: none;
+    color: #524F4A;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 2.1vw;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #524F4A;
+
+}
+
+header p{
+    font-size: 1.8vw;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.content{
+    margin-top: 5%;
+    font-size: 2vw;
+}
+
+li{
+    padding: 0.8%;
+    font-weight: bold;
+}
+
+.decor{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.box{
+    width: 1%;
+    border: 1px solid black;
+    padding: 3%;
+    margin: 2%;
+}
+
+.one{
+    background-color: #C09984;
+}
+.two{
+    background-color: #E5E3D7;
+}
+.three{
+    background-color: #CBC3BA;
+}
+.four{
+    background-color: #524F4A;
+}
+.five{
+    background-color: #A6A998;
+}
+.six{
+    background-color: #D9C2B0;
+}
+
+
+
